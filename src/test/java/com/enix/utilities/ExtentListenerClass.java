@@ -115,6 +115,8 @@ package com.enix.utilities;
 
 		public void onTestFailedButWithinSuccessPercentage(ITestResult Result)					
 		{		
+			
+			
 
 		}		
 
