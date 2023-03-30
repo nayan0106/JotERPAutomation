@@ -2,19 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28628" started-at="2023-03-08T17:23:14 IST" finished-at="2023-03-08T17:23:42 IST">
+  <suite name="Default suite" duration-ms="32213" started-at="2023-03-30T15:05:25 IST" finished-at="2023-03-30T15:05:58 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28628" started-at="2023-03-08T17:23:14 IST" finished-at="2023-03-08T17:23:42 IST">
+    <test name="Default test" duration-ms="32213" started-at="2023-03-30T15:05:25 IST" finished-at="2023-03-30T15:05:58 IST">
       <class name="com.enix.testcases.TC_LOGINPAGE">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@67b467e9]" name="setup" is-config="true" duration-ms="2537" started-at="2023-03-08T17:23:14 IST" finished-at="2023-03-08T17:23:16 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@4cf4d528]" name="setup" is-config="true" duration-ms="3060" started-at="2023-03-30T15:05:22 IST" finished-at="2023-03-30T15:05:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@67b467e9]" name="VerifyLogin" duration-ms="26043" started-at="2023-03-08T17:23:16 IST" finished-at="2023-03-08T17:23:42 IST">
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@4cf4d528]" name="verifylogin" is-config="true" duration-ms="1858" started-at="2023-03-30T15:05:25 IST" finished-at="2023-03-30T15:05:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyLogin -->
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="Operation()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@4cf4d528]" name="Operation" duration-ms="28532" started-at="2023-03-30T15:05:27 IST" finished-at="2023-03-30T15:05:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Operation -->
+        <test-method status="PASS" signature="window()[pri:0, instance:com.enix.testcases.TC_LOGINPAGE@4cf4d528]" name="window" is-config="true" duration-ms="1748" started-at="2023-03-30T15:05:56 IST" finished-at="2023-03-30T15:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window -->
       </class> <!-- com.enix.testcases.TC_LOGINPAGE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

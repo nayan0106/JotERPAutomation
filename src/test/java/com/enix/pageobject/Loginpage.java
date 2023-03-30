@@ -20,22 +20,20 @@ public class Loginpage
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	//identify WebElements
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtUserName']") WebElement Username;
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtPassword']") WebElement Password;
 	@FindBy(xpath="//input[@value='Log In']") WebElement login;
 	
-	
 	//Nonstatic methods for WebElements
 	public void enterusername(String Uname)
 	{
-		Username.sendKeys("nayan0106");
+		Username.sendKeys(Uname);
 	}
 	
-	public void enterpassword(String PWD)
+	public void enterpassword(String Pwd)
 	{
-		Password.sendKeys("Welcome123");
+		Password.sendKeys(Pwd);
 	}
 	
 	public void clicklogin()

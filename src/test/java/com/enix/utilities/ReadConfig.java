@@ -4,11 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
 
-
-
 public class ReadConfig 
 {
-	
 	
 	Properties properties;
 	 String path="C:\\Users\\Nayan\\eclipse-workspace\\JotFramework\\Configuration\\prop.properties";
@@ -17,8 +14,6 @@ public class ReadConfig
 	 {
 		 try {
 		 properties = new Properties();
-		 
-		 
 			FileInputStream file= new FileInputStream(path);
 			properties.load(file);
 		} catch (Exception  e) {
@@ -44,7 +39,7 @@ public class ReadConfig
 		 if(value !=null)
 			 return value;
 		 else
-			 throw new RuntimeException("url not specified in config");	 
+			 throw new RuntimeException("browser not specified in config");	 
 	 }
 	 public String getusername()
 	 {
@@ -53,16 +48,16 @@ public class ReadConfig
 		 if(value !=null)
 			 return value;
 		 else
-			 throw new RuntimeException("url not specified in config");	 
+			 throw new RuntimeException("Invalid Username");	 
 	 }
 	 public String getpassword()
 	 {
-		String value= properties.getProperty("PWD") ;
+		String value= properties.getProperty("Pwd") ;
 		 
 		 if(value !=null)
 			 return value;
 		 else
-			 throw new RuntimeException("url not specified in config");	 
+			 throw new RuntimeException("Invalid Password");	 
 	 }
 //	 
 //	 

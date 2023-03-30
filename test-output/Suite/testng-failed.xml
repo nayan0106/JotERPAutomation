@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.enix.utilities.ExtentListenerClass"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.enix.testcases.TC_LOGINPAGE">
         <methods>
           <include name="setup"/>
-          <include name="VerifyLogin"/>
+          <include name="hrm"/>
+          <include name="supplier_portal"/>
+          <include name="survey_certificates"/>
+          <include name="procurement"/>
+          <include name="technical"/>
+          <include name="window"/>
+          <include name="verifylogin"/>
+          <include name="admin"/>
+          <include name="account"/>
         </methods>
       </class> <!-- com.enix.testcases.TC_LOGINPAGE -->
     </classes>
